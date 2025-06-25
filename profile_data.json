@@ -1,0 +1,18 @@
+[
+  {
+    "keywords": ["name", "who are you"],
+    "answer": "I'm Aneesh Mussim, an AI/ML engineer and full-stack developer!"
+  },
+  {
+    "keywords": ["skills", "technologies"],
+    "answer": "I work with Python, React, Flask, AWS, LangChain, and more."
+  },
+  {
+    "keywords": ["projects", "github"],
+    "answer": "You can explore my projects like Proposal Scanner and Solo Leveling App on my GitHub."
+  },
+  {
+    "keywords": ["contact", "email"],
+    "answer": "You can reach me at saianeesh01@gmail.com or connect on LinkedIn."
+  }
+]
