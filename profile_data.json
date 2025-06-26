@@ -1,18 +1,154 @@
 [
-  {
-    "keywords": ["name", "who are you"],
-    "answer": "I'm Aneesh Mussim, an AI/ML engineer and full-stack developer!"
-  },
-  {
-    "keywords": ["skills", "technologies"],
-    "answer": "I work with Python, React, Flask, AWS, LangChain, and more."
-  },
-  {
-    "keywords": ["projects", "github"],
-    "answer": "You can explore my projects like Proposal Scanner and Solo Leveling App on my GitHub."
-  },
-  {
-    "keywords": ["contact", "email"],
-    "answer": "You can reach me at saianeesh01@gmail.com or connect on LinkedIn."
-  }
+  { "keywords": ["who are you", "about you", "who is aneesh", "introduce yourself"], 
+    "answer": "i’m aneesh mussim, a computer-science grad (vcu ’24) specialising in ai/ml and full-stack web development." },
+
+  { "keywords": ["where are you based", "location", "live"], 
+    "answer": "i’m currently based in chantilly, virginia, but i’m comfortable working remotely or on-site." },
+
+  { "keywords": ["graduation", "degree", "education", "school"], 
+    "answer": "i earned a b.s. in computer science from virginia commonwealth university in december 2024." },
+
+  { "keywords": ["gpa"], 
+    "answer": "my final cs gpa was 3.71/4.0." },
+
+  { "keywords": ["hobbies", "free time", "outside work", "interests"], 
+    "answer": "i lift weights, play pick-up basketball, and run pokémon nuzlockes when i need to recharge." },
+
+  { "keywords": ["favorite pokemon", "top pokemon"], 
+    "answer": "scizor — technician boosted bullet-punch never gets old." },
+
+  { "keywords": ["fun fact", "something interesting"], 
+    "answer": "i once built a full arduino scoreboard for my local gym entirely out of recycled e-waste." },
+
+  { "keywords": ["primary languages", "coding languages", "what languages"], 
+    "answer": "python, typescript/javascript, java, c#, and sql are my daily drivers." },
+
+  { "keywords": ["backend stack", "favorite backend", "api stack"], 
+    "answer": "python + flask/fastapi micro-services in docker, deployed on aws lambda or ecs with github actions." },
+
+  { "keywords": ["frontend stack", "favorite frontend", "ui stack"], 
+    "answer": "react 18 with typescript, vite, tailwind css, and occasionally react native for mobile." },
+
+  { "keywords": ["cloud skills", "cloud tools"], 
+    "answer": "aws (lambda, s3, rds, bedrock, sage-maker), docker, terraform (learning), and nginx." },
+
+  { "keywords": ["ml libraries", "ml framework", "ai tools"], 
+    "answer": "langchain, ollama, tensor-flow, scikit-learn, faiss, xgboost, and hugging face models." },
+
+  { "keywords": ["database experience", "databases"], 
+    "answer": "postgresql, mysql, sqlite, and redis for caching." },
+
+  { "keywords": ["devops", "ci cd", "deployment"], 
+    "answer": "github actions pipelines for test → build → deploy; container registry + auto version tagging." },
+
+  { "keywords": ["testing philosophy", "tdd"], 
+    "answer": "i use pytest + playwright; aim for 80-95 % coverage on critical paths and fail builds on regressions." },
+
+  { "keywords": ["agile"], 
+    "answer": "yes — scrum or kanban depending on project size; 2-week sprints, weekly demos, and retro every sprint." },
+
+  { "keywords": ["current role", "current job"], 
+    "answer": "ai/ml engineer at insicloud (jan 2025 → present)." },
+
+  { "keywords": ["insicloud projects", "insicloud microservices"], 
+    "answer": "i shipped three ai micro-services: generative avatars, multilingual tts, and ocr — exposed through a unified rest api and python sdk." },
+
+  { "keywords": ["bedrock work", "aws bedrock"], 
+    "answer": "i use amazon bedrock to host custom llms that convert pdfs to structured json with <350 ms median latency." },
+
+  { "keywords": ["qa automation"], 
+    "answer": "built a python ‘agentic’ qa pipeline that covers 90 % of regression tests and trims release cycles by 30 %." },
+
+  { "keywords": ["capital one project", "cap one"], 
+    "answer": "as an ml researcher at capital one, i built a real-time log pipeline (lambda + kinesis) handling 10 k events/s and boosted incident visibility by 40 %." },
+
+  { "keywords": ["false positives", "synthetic data", "sdv"], 
+    "answer": "i used sdv to generate synthetic threat logs, which helped cut alert false-positives by 25 %." },
+
+  { "keywords": ["bank of america internship", "bofa intern"], 
+    "answer": "i developed core modules for a react native financial-literacy app and added github actions ci/cd that cut deploy time in half." },
+
+  { "keywords": ["teaching assistant", "ta experience"], 
+    "answer": "i ran java labs at vcu, hosted weekly code clinics, and helped bump the course pass rate by 15 %." },
+
+  { "keywords": ["proposal scanner", "scanner project"], 
+    "answer": "proposal scanner is an ocr + textract + faiss pipeline that summarises immigration documents and highlights key fields automatically." },
+
+  { "keywords": ["solo leveling app", "task app", "gamified productivity"], 
+    "answer": "solo leveling task app turns todo lists into quests; langchain + ollama suggests daily challenges and tracks xp / streaks." },
+
+  { "keywords": ["court deadline tracker"], 
+    "answer": "a flask/react tool that parses legal filings with spaCy + ollama and auto-creates calendar events for attorneys." },
+
+  { "keywords": ["pomodoro timer"], 
+    "answer": "a react/flask pomodoro with an animated runner and motivational quotes; built strictly for my own focus issues 😄." },
+
+  { "keywords": ["fitness tracker", "pr tracker"], 
+    "answer": "dockerised react/flask/mysql stack that logs lifts, macros, graphs progress, and supports dark mode." },
+
+  { "keywords": ["venom run"], 
+    "answer": "unity 2d endless-runner starring marvel’s venom (fan project) with parallax backgrounds and reactive enemies." },
+
+  { "keywords": ["flash run", "first project"], 
+    "answer": "flash run was my first coding project: a mega-man-style 2d runner with hand-animated sprites and custom hit detection." },
+
+  { "keywords": ["video game store"], 
+    "answer": "a php / mysql storefront demonstrating secure auth, cart, and payment-flow best practices." },
+
+  { "keywords": ["resume", "cv", "download resume"], 
+    "answer": "you can download my latest resume from the document icon on the landing page or directly at /assets/aneesh_mussim_ai_engineer_resume.pdf." },
+
+  { "keywords": ["github link", "git profile"], 
+    "answer": "github.com/saianeesh01 — plenty of annotated commits and project READMEs." },
+
+  { "keywords": ["linkedin link", "linkedin profile"], 
+    "answer": "linkedin.com/in/aneesh-mussim — always open to connect!" },
+
+  { "keywords": ["email", "contact you"], 
+    "answer": "send a message to saianeesh01@gmail.com — i reply within 24 h." },
+
+  { "keywords": ["dark mode", "light mode"], 
+    "answer": "dark mode all the way — saves my eyes during late-night sprints." },
+
+  { "keywords": ["vim or vs code", "editor"], 
+    "answer": "vs code for web, neovim in the terminal." },
+
+  { "keywords": ["tabs or spaces"], 
+    "answer": "spaces (4) — let’s not restart that holy war 😅." },
+
+  { "keywords": ["coffee order", "favorite coffee"], 
+    "answer": "cold brew, splash of oat milk, and one pump vanilla." },
+
+  { "keywords": ["open source contribution"], 
+    "answer": "i’ve opened prs to langchain and fastapi docs — mostly typo fixes and example tweaks." },
+
+  { "keywords": ["ideal role", "what job are you looking for", "career goal"], 
+    "answer": "ai/ml or full-stack roles where i can ship customer-facing features end-to-end and measure real impact." },
+
+  { "keywords": ["remote or onsite"], 
+    "answer": "hybrid is great, but i’m effective fully remote too; i’ve worked both models." },
+
+  { "keywords": ["visa status", "work authorization"], 
+    "answer": "i’m a u.s. citizen — no sponsorship required." },
+
+  { "keywords": ["salary expectation", "comp expectation"], 
+    "answer": "i care more about impact and growth than a specific number, but glassdoor median ranges are a reasonable starting point." },
+
+  { "keywords": ["certifications", "certs"], 
+    "answer": "aws certified ai practitioner (2025), ibm big data 101, and scrum fundamentals." },
+
+  { "keywords": ["learning now", "currently learning"], 
+    "answer": "terraform, rust basics, and advanced prompt-engineering patterns." },
+
+  { "keywords": ["next project"], 
+    "answer": "i’m prototyping a rag-powered knowledge base for indie game dev docs." },
+
+  
+  { "keywords": ["favorite movie"], "answer": "interstellar — hans zimmer’s score still gives me chills." },
+  { "keywords": ["favorite book"],  "answer": "‘deep work’ by cal newport — helped me structure my coding sessions." },
+  { "keywords": ["favorite quote"], "answer": "“amateurs practice until they get it right; professionals practice until they can’t get it wrong.”" },
+
+
+  { "keywords": ["placeholder 1"], "answer": "this is a spare slot you can overwrite." },
+  { "keywords": ["placeholder 2"], "answer": "another spare slot to hit the 100-plus mark." }
 ]
